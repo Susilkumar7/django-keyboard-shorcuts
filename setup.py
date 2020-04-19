@@ -9,7 +9,7 @@ VERSION = '0.0.7'
 
 
 def read(*parts):
-    return codecs.open(os.path.join(os.path.dirname(__file__), *parts)).read()
+    return codecs.open(os.path.join(os.path.dirname(__file__), *parts), encoding='utf-8').read()
 
 
 # Provided as an attribute, so you can append to these instead
